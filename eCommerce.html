@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Wonder Pet Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-color: rgb(72, 121, 109);">
+    <style>
+    
+    * {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #612b2b;
+	color: #fff;
+	padding: 20px;
+}
+
+header h1 {
+	display: inline-block;
+}
+
+nav ul {
+	display: inline;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+nav ul li a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+
+main {
+	margin: 20px;
+}
+.products {
+	display: flex;
+	flex-wrap: wrap;
+    border: 1px solid rgb(0, 0, 0);
+    display: inline-block;
+    margin-top:40px;
+}
+
+.product {
+	border: 1px solid #000000;
+	box-shadow: 0 0 5px rgba(0,0,0,0.2);
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	width: 200px;
+	display: inline-block;
+	vertical-align: top;
+    margin-left: 45px;
+    margin-right: 5px;
+    margin-bottom: 50px;
+}
+
+.product img {
+	max-width: 100%;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.product h3 {
+	font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.product p {
+	font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+	background-color: #333;
+	border: none;
+	color: #ffffff;
+	cursor: pointer;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	transition: background-color 0.3s;
+}
+
+.btn:hover {
+	background-color: #555;
+}
+    </style>
+    <header>
+        <h1>Welcome to WonderPets</h1>
+        <nav>
+            <ul>
+                <li><a href="home1.html">Home</a></li>
+                <li><a href="eCommerce.html">Shop</a></li>
+                <li><a href="#">Cart</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="index.html">Log Out</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="banner">
+            <h2>Welcome to our online pet store, Enjoy shopping!</h2>
+            <p>Choose the pet that chose you.</p>
+            <a href="#" class="btn">Shop now</a>
+        </section>
+        
+        <section class="products">
+            <h2>These cuties are our available pets at the moment.</h2>
+            <div class="product">
+                <img class="thumbnail" src="snk.jpg">
+                <h3>Wonder Snake</h3>
+                <p>P9,500</p>
+                <a href="cart.html" class="btn">Add to cart</a>
+            </div>
+            <div class="product">
+                <img class="thumbnail"src="dog.jpg" >
+                <h3>Wonder Dalmatian</h3>
+                <p>P75,000</p>
+                <a href="cart.html" class="btn">Add to cart</a>
+            </div>
+            <div class="product">
+                <img class="thumbnail" src="par.jpg" >
+                <h3>Wonder Parrot</h3>
+                <p>P14,000</p>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="product">
+                <img class="thumbnail" src="rus.jpg" >
+                <h3>Wonder Hamster</h3>
+                <p>P19,000</p>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="product">
+                <img class="thumbnail" src="fh.jpg" >
+                <h3>Wonder Fish</h3>
+                <p>P3,999</p>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="product">
+                <img class="thumbnail" src="wa.jpg" >
+                <h3>Wonder Cat</h3>
+                <p>P35,000</p>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="product">
+                <img class="thumbnail" src="ww.jpg" >
+                <h3>Wonder Tarantula</h3>
+                <p>P8,000</p>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="product">
+                <img class="thumbnail" src="pg.jpg" >
+                <h3>Wonder Pig</h3>
+                <p>P10,000</p>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="product">
+                <img class="thumbnail" src="rb.jpg" >
+                <h3>Wonder Rabbit</h3>
+                <p>P18,000</p>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="product">
+                <img class="thumbnail" src="lz.jpg" >
+                <h3>Wonder Lizard</h3>
+                <p>P23,000</p>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 My E-commerce Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
